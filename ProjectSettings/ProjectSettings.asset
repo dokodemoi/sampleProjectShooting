@@ -460,7 +460,8 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   cloudProjectId: c70f5b82-4a13-4804-8080-076ac7cc5155
   projectName: sampleShooting
   organizationId: vgtfdst
