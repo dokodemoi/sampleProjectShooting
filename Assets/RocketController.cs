@@ -16,7 +16,7 @@ public class RocketController : MonoBehaviour
         {
             transform.Translate(0.1f, 0, 0);
         }
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(bulletPrefab, transform.position, Quaternion.identity);
         }
